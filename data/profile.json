@@ -14,14 +14,20 @@
   ],
   "projects": [
     {
-      "name": "Pokedex",
+      "name": "PokeDex",
       "url": "https://guillxr.github.io/pokedex",
       "code": "https://github.com/guillxr/pokedex",
       "description": "Desenvolvi uma Pokédex utilizando JavaScript, HTML e CSS, integrando a PokeAPI. Esta aplicação web permite aos usuários explorarem informações detalhadas como tipo, habilidades e estatísticas, obtidos dinamicamente através da PokeAPI.",
       "technologies": [
-        "JavaScript",
-        "HTML5",
-        "CSS"
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "HTML5"
+        },
+        {
+          "name": "CSS"
+        }
       ]
     }
   ],
