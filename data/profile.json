@@ -20,13 +20,16 @@
       "description": "Desenvolvi uma Pokédex utilizando JavaScript, HTML e CSS, integrando a PokeAPI. Esta aplicação web permite aos usuários explorarem informações detalhadas como tipo, habilidades e estatísticas, obtidos dinamicamente através da PokeAPI.",
       "technologies": [
         {
-          "name": "JavaScript"
+          "name": "JavaScript",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"	
         },
         {
-          "name": "HTML5"
+          "name": "HTML5",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
         },
         {
-          "name": "CSS"
+          "name": "CSS",
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
         }
       ]
     }
