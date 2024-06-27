@@ -1,0 +1,44 @@
+{
+  "name": "Gustavo Souza",
+  "photo": "https://avatars.githubusercontent.com/u/136463238?v=4",
+  "description": "Sou estudante de Engenharia de Software e estou focado em dominar JavaScript, React, HTML e CSS. Estou constantemente em busca de desafios que ampliem meus conhecimentos e contribuam para projetos inovadores.",
+  "contact": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/devgustavo-io"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/guillxr"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pokedex",
+      "url": "https://guillxr.github.io/pokedex",
+      "code": "https://github.com/guillxr/pokedex",
+      "description": "Desenvolvi uma Pokédex utilizando JavaScript, HTML e CSS, integrando a PokeAPI. Esta aplicação web permite aos usuários explorarem informações detalhadas como tipo, habilidades e estatísticas, obtidos dinamicamente através da PokeAPI.",
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS"
+      ]
+    }
+  ],
+  "graduation": [
+    {
+      "name": "Engenharia de Software",
+      "institution": "Centro Universitário Ateneu",
+      "period": "2023 - Atualmente...",
+      "description": "Estou cursando Engenharia de Software no Centro Universitário Ateneu. Durante o curso, tenho adquirido conhecimentos em programação, desenvolvimento de software, gerência de projetos, etc."
+    },
+    {
+      "name": "Ensino Médio",
+      "institution": "EEM Joaquim Bastos Gonçalves",
+      "period": "2022",
+      "description": "Concluí o Ensino Médio na Escola de Ensino Médio Joaquim Bastos Gonçalves, onde tive a oportunidade de adquirir conhecimentos em diversas áreas do conhecimento, principalmente nas áreas de matemática e informática."
+    }
+  ],
+  "about":
+    "Meu nome é Gustavo Souza, sou apaixonado por futebol e tecnologia, e estou em busca de novos desafios e oportunidades. <br> Estou atualmente cursando Engenharia de Software, onde tenho explorado áreas como desenvolvimento web e gerenciamento de projetos de software. Além dos estudos acadêmicos, venho ampliando meu conhecimento por meio de cursos extracurriculares focados em linguagens de programação modernas e participando ativamente em projetos práticos, como desenvolvimento de sistemas web."
+}
