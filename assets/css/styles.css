@@ -19,16 +19,27 @@ header nav a {
     transition: .3s;
 }
 
-header nav a:hover {
-    color: #FACC15 ;
-}
-
 header nav a.active {
     color: #efc315 ;
 }
 
+header nav button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 .5rem;
+    cursor: pointer;
+    transition: .2s;
+    border: none;
+    background: none;
+}
+
+header nav button:hover {
+    scale: 1.15;
+} 
+
 header nav.scroll {
-    background-color: #ffffff77;
+    background-color: var(--bar);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .05);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -81,7 +92,7 @@ header nav.scroll {
 .header .information {
     margin-bottom: 2rem;
     font-size: 1.1rem;
-    color: #D1D5DB;
+    color: var(--tertiary);
 }
 
 .header .contact {
@@ -95,10 +106,10 @@ header nav.scroll {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #301458;
+    background-color: var(--button);
     padding: .5rem;
     border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, .35);
+    border: 1px solid var(--border);
     cursor: pointer;
 }
 
@@ -139,7 +150,7 @@ header nav.scroll {
 
 .graduation::before {
     content: "";
-    border-left: 3px solid #ffffff26;
+    border-left: 3px solid var(--line);
 }
 
 .graduation div {
@@ -175,11 +186,11 @@ header nav.scroll {
 .graduation .graduation-content .graduation-information .date {
     margin-top: .5rem;
     font-size: .85rem;
-    color: #D1D5DB;
+    color: var(--tertiary);
 }
 
 .graduation .graduation-content .graduation-description {
-    color: #D1D5DB;
+    color: var(--tertiary);
 }
 
 .projects {
@@ -238,10 +249,10 @@ header nav.scroll {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #301458;
+    background-color: var(--button);
     padding: .5rem;
     border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, .35); 
+    border: 1px solid var(--border); 
 }
 
 .project .project-information .technologies div span {
@@ -256,7 +267,7 @@ header nav.scroll {
 
 .project .project-information .description {
     margin-bottom: .5rem;
-    color: #D1D5DB;
+    color: var(--tertiary);
 }
 
 .project .project-information .links {
@@ -270,10 +281,10 @@ header nav.scroll {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #301458;
+    background-color: var(--button);
     padding: .5rem;
     border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, .35);
+    border: 1px solid var(--border);
     cursor: pointer;
 }
 
@@ -297,7 +308,7 @@ header nav.scroll {
 .about .about-content {
     display: flex;
     gap: 5rem;
-    color: #D1D5DB;
+    color: var(--tertiary);
     font-size: 1.1rem;
 }
 
@@ -317,7 +328,7 @@ header nav.scroll {
     padding: 3px;
     border-radius: 1rem;
     object-fit: cover;
-    border: 1.5px solid #ffffff50;
+    border: 1.5px solid var(--border);
 }
 
 footer {
@@ -342,7 +353,7 @@ footer {
 
 @keyframes mark {
     50% {
-        border-right: 2px solid #11071F;
+        border-right: 2px solid var(--primary);
     }
 }
 
@@ -361,10 +372,17 @@ footer {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    header nav a:hover {
+        color: #FACC15 ;
+    }
+}
+
 @media screen and (max-width: 1024px){
     .main {
         max-width: 42rem;
     }
+
     .graduation {
         height: max-content;
     }
