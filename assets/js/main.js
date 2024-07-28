@@ -132,5 +132,4 @@ async function render() {
         </section>`
     main.innerHTML = newHtml
 }
-
 render()
